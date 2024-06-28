@@ -4,14 +4,11 @@ import PropTypes from 'prop-types';
 import { FaArrowRight } from 'react-icons/fa'; 
 
 const ButtonWithIcon = ({ text , handleClick }) => {
-  // const handleClick = () => {
-  //   console.log('Button clicked!');
-  // };
 
   return (
     <button
       onClick={handleClick}
-      className="bg-mypink text-white font-bold  py-2 px-4 rounded-2xl inline-flex items-center space-x-2"
+      className="bg-mypink text-xs md:text-base  text-white font-bold p-2  md:py-2 md:px-4 rounded-2xl inline-flex items-center space-x-2"
     >
       <span>{text}</span>
       <FaArrowRight />
