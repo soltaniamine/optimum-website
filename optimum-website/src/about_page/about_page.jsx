@@ -10,7 +10,7 @@ import ButtonWithIcon from "./Components/button";
 
 export default function AboutPage() {
   return (
-    <div className=" h-[100vh] bg-white flex flex-row justify-around items-end">
+    <div className="mb-20 md:mb-0 h-[100vh] bg-white flex flex-row justify-around items-end">
         <div className=" h-[80%]  w-[30%]  hidden  lg:block">
             <img src={mockup} className="h-[100%] " alt="mockup" />
         </div>
