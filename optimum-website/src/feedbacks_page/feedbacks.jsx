@@ -12,7 +12,7 @@ import feed8 from "../assets/feed8.png";
 const Feedbacks = ()=>{
     return (
         <div className="md:h-[100vh] h-[120vh]  flex flex-col items-center">
-            <div className="flex justify-center mb-2">
+            <div className="flex justify-center md:mt-0">
                 <h1 className="text-black sm:text-2xl text-xl md:text-3xl lg:text-4xl font-bold text-center pt-10">A statement from the Developers</h1>
                 <img src={feedback_icon} alt="" />
             </div>
