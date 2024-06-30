@@ -76,7 +76,7 @@ const Navbar = () => {
               <a href="#App" className='hover:text-mypink font-semibold'>App</a>
             </div>
           </div>
-          <a href="/app/optimum-app.apk">
+          <a className='hidden lg:block' href="/app/optimum-app.apk">
             <button className='bg-mypink text-white h-10 w-36 rounded-3xl hidden lg:block'>Download</button>
           </a>
         </div>
