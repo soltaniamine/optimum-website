@@ -18,7 +18,7 @@ export default function AboutPage() {
             <div className=" flex flex-col justify-center items-center pt-10 ">
                 {/* title */}
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl tracking-wide md:tracking-wider  text-center p-2 z-10 font-bold">
-                    What's <span className=" text-myblue">Optimum</span> ?
+                    What&apos;s <span className=" text-myblue">Optimum</span> ?
                 </h1>
                 <img
                 src={title_shadow}

@@ -8,7 +8,7 @@ export default function Download() {
                 <div className="h-[90%] w-[90%]  md:w-[60%] flex flex-col justify-evenly relative px-4 sm:px-10 ">
                     <h1 className="text-lg sm:text-2xl  lg:text-4xl font-bold sm:tracking-wide">Download <span className="text-mypink">OPTIMUM</span> <br />NOW !</h1>
                     <p className="text-mygrey">Don&apos;t hesitate to click now and experience the convenience and ease of our app for yourself.</p>
-                    <DownloadButton text="Download" handleClick={()=>console.log("download button")} />
+                    <DownloadButton text="Download" handleClick={()=>{}} />
                 </div>
             </div>
                 <img
